@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient(135deg, #1b6382, #2c6e7a);
+    font-family: Arial, sans-serif;
+}
+
+/* ENCABEZADO */
+#encabezado {
+    color: rgb(186, 231, 242);
+}
+
+/* SERVICIOS */
+#servicios {
+    background-color: rgba(151, 219, 222, 0.604);
+    color: white;
+}
+
+/* OPCIONES */
+.opcion-servicio {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 12px;
+    margin: 10px 0;
+    background-color: rgba(57, 100, 119, 0.5);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.opcion-servicio:hover {
+    transform: scale(1.03);
+    background-color: rgba(57, 100, 119, 0.8);
+}
+
+.

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- ESTE ES MI BOOPSTRAP-->
+  <link rel="stylesheet" href="css/bootstrap.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="./Css/example.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+  <!-- AQUI VA CONTACTOS NUEVOS-->
+
+  <h1 id="transferirrr">Transferir</h1>
+  <h2 id="saldoencuenta">$1.250.000</h2>
+
+  <div class="container d-flex justify-content-center mb-4">
+    <div class="card shadow-sm" style="width: 500px;">
+      <div class="card-body">
+
+        <h3 id="tituloContacto">Agregar Nuevo Contacto</h3>
+        <div class="mb-3">
+          <label for="nombreContacto" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="nombreContacto" placeholder="Nombre del contacto">
+        </div>
+
+        <div class="mb-3">
+          <label for="bancoContacto" class="form-label">Banco</label>
+          <input type="text" class="form-control" id="bancoContacto" placeholder="Nombre del banco">
+        </div>
+
+        <div class="mb-3">
+          <label for="cuentaContacto" class="form-label">Número de cuenta</label>
+          <input type="text" class="form-control" id="cuentaContacto" placeholder="0000 0000 0000">
+        </div>
+
+        <div class="text-center mt-4">
+
+
+          <button class="boton-wallett" onclick="window.location.href='sendmoney.html'">
+            <i class="bi bi-arrow-left-circle-fill"></i>
+            Volver al Menú
+          </button>
+
+          <button id="btnAgregar-Contacto" class="boton-wallett2">
+            <i class="bi bi-person-plus-fill"></i>
+            Agregar Contacto Nuevo
+          </button>
+
+
+
+          <!--ESTE ES MI JQUERY-->
+
+
+          <script src="./Assets/Js/jquery/Jquery.js"></script>
+          <script src="./Assets/Js/script.js"> </script>
+          <script src="./Assets/Js/contacto.js"></script>
+          <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+          <script src="./Assets/Js/sendmoney.js"></script>
+
+
+
+</body>
+
+</html>

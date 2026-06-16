@@ -1,0 +1,397 @@
+
+.btn-personalizado {
+    background-color: #24c796; /* Turquesa */
+    border-color: #20c997;
+    color: white;
+}
+
+.btn-personalizado:hover {
+    background-color: #1aa179;
+    border-color: #1aa179;
+}
+
+/*ESTE ES MI CSS ULTIMAS TRANSACIONES*/
+#transacciones{
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
+}
+
+.movimiento{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.movimiento i{
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.positivo{
+    color: green;
+    font-weight: bold;
+}
+
+.negativo{
+    color: red;
+    font-weight: bold;
+}
+/*ESTE ES MI CSS PARA ENCABEZADO DE ULTIMAS TRANSACIONES*/
+
+#saldodisponible{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+     font-size: 22px;
+    font-weight: 500;
+    color: #74d6cafb;
+}
+
+#saldito{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #74d6cafb;
+}
+
+/*ESTE ES MI CSS PARA BOTON DE AGREGAR NUEVO CONTACTO EN PAGINA CONTACTO.HTML*/
+
+
+#btnAgregarContacto{
+    background-color: #29729c;
+    color: white;
+}
+
+#btnAgregarContacto{
+    background-color: #29729c;
+    color: white;
+}
+
+/*ESTA ES MI FUENTE DE AGREGAR CONTACTO*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+#tituloContacto{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: #197597;
+    margin-bottom: 25px;
+}
+
+.form-label{
+    font-weight: 500;
+}
+
+#btnAgregarContacto{
+    border-radius: 25px;
+    font-weight: 600;
+    padding: 10px 25px;
+
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+
+/*ESTE ES MI CSS PARA TRANSFERIR*/
+
+#transferir1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+     font-size: 22px;
+    font-weight: 500;
+    color: #93dce2fb;
+}
+
+#saldodisponible{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #a9d7d2fb;
+}
+ 
+#mymoney{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #a9d7d2fb;
+}
+
+
+
+#btnNuevoContacto{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    color: #74d6cafb;
+}
+
+
+#Volver-Menu{
+    background-color: #688eb4;
+    color: #0b6c8f;
+    border: 2px solid #bbd7ca;
+    border-radius: 30px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 280px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/*ESTE ES MI CSS PARA contacto.html*/
+
+#transferirrr{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #a9d7d2fb;
+}
+
+#saldoencuenta{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #a9d7d2fb;
+}
+
+/*ESTE ES MI CSS PARA ENVIAR DINERO ENTRE MIS CUENTAS*/
+
+#contenedorBotones,
+#contenedorContacto{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.boton-wallet{
+    background-color: #f8f9fa;
+    color: #0b6c8f;
+    border: 2px solid #bbd7ca;
+    border-radius: 30px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 280px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.boton-wallet:hover{
+    background-color: #1d7b92;
+    color: white;
+}
+
+/*ESTE ES MI CSS PARA ENVIAR DINERO LETRAS*/
+
+
+#btnVolver-Menu{
+    background: linear-gradient(135deg, #0d6efd, #0a58ca);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 14px 28px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(13, 110, 253, 0.3);
+    transition: all .3s ease;
+}
+
+#btnVolver-Menu:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(91, 138, 208, 0.4);
+}
+
+/*ESTE ES MI CSS PARA BOTONES CON CLASS- WALET EN de CONTACTO.HTML */
+.boton-wallett{ 
+    background-color: #f8f9fa;
+    color: #0b6c8f;
+    border: 2px solid #bbd7ca;
+    border-radius: 30px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 280px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.boton-wallett:hover{
+    background-color: #1d7b92;
+    color: white;
+}
+/*ESTE ES MI CSS PARA BOTONES CON  SENDMONEY.HTML*/
+.boton-wallett2{ 
+    background-color: #f8f9fa;
+    color: #0b6c8f;
+    border: 2px solid #bbd7ca;
+    border-radius: 30px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 280px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.boton-wallett2:hover{
+    background-color: #1d7b92;
+    color: white;
+}
+ /* ESTOS SON MIS CSS PARA BOTONES DE SENDMONEY.HTML*/
+
+ .boton-wallet1{ 
+    background-color: #f8f9fa;
+    color: #0b6c8f;
+    border: 2px solid #bbd7ca;
+    border-radius: 30px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 280px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.boton-wallet1:hover{
+    background-color: #1d7b92;
+    color: white;
+}
+/*color boton 2*/
+ .boton-wallet2{ 
+    background-color: #f8f9fa;
+    color: #0b6c8f;
+    border: 2px solid #bbd7ca;
+    border-radius: 30px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 280px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.boton-wallet2:hover{
+    background-color: #1d7b92;
+    color: white;
+}
+
+/*esto es para centrar mis botones*/
+#contenedorBotones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+.boton-wallet1,
+.boton-wallet2{
+    width: 280px;
+}
+/*FIN CSS BOTONES SENDMONEY*/
+
+/*ESTOS SON MIS BOTONES PARA DEPOSITO ENTRE MIS CUENTAS DEPOSITO.HTML*/
+
+.boton-walletDEPOSITO1{ 
+    background-color: #f8f9fa;
+    color: #0b6c8f;
+    border: 2px solid #bbd7ca;
+    border-radius: 30px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 280px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.boton-walletDEPOSITO1:hover{
+    background-color: #1d7b92;
+    color: white;
+}
+
+.boton-walletDEPOSITO2{ 
+    background-color: #f8f9fa;
+    color: #0b6c8f;
+    border: 2px solid #bbd7ca;
+    border-radius: 30px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 280px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.boton-walletDEPOSITO2:hover{
+    background-color: #1d7b92;
+    color: white;
+}
+
+/*esto es para centrar mis botones*/
+.boton-walletDEPOSITO1,
+.boton-walletDEPOSITO2 {
+    display: block;
+    margin: 20px auto;
+}
+/*TITULOS DENTRO DE DEPOSITO.HTML*/
+.titulo-transferencia {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #114550fb;
+}
+
+.texto-saldo {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #a9d7d2fb;
+}
+#saldoDisponible {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #a9d7d2fb;
+}
+
+/*ESTE ES PARA CENTRAR MI BOTON DE ULTIMASTRANSACIONES*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#transacciones {
+    width: 100%;
+    max-width: 600px;
+}
+
+#btnVolver--menu {
+    margin-top: 20px;
+}
