@@ -1,0 +1,93 @@
+# Alke Wallet
+
+## Descripción
+
+Alke Wallet es una aplicación web desarrollada con HTML, CSS, Bootstrap y jQuery que simula una billetera digital.
+
+La aplicación permite administrar contactos, realizar transferencias, efectuar depósitos, pagar servicios y visualizar movimientos recientes.
+
+## Credenciales de acceso
+
+Para probar la aplicación utiliza las siguientes credenciales:
+
+**Usuario:** fernanda
+
+**Contraseña:** 1234
+
+> Estas credenciales fueron creadas únicamente para fines de demostración y pruebas del proyecto.
+
+## Tecnologías utilizadas
+
+* HTML5
+* CSS3
+* Bootstrap 5
+* Bootstrap Icons
+* JavaScript
+* jQuery
+* LocalStorage
+
+## Funcionalidades principales
+
+### Inicio de sesión
+
+Permite acceder a la aplicación mediante validación de usuario y contraseña.
+
+### Gestión de contactos
+
+Permite agregar nuevos contactos y almacenarlos mediante LocalStorage para utilizarlos posteriormente en las transferencias.
+
+### Transferencias
+
+Permite enviar dinero a contactos registrados validando saldo disponible.
+
+### Transferencias entre cuentas
+
+Permite realizar transferencias entre cuentas propias simulando operaciones bancarias internas.
+
+### Depósitos
+
+Permite realizar depósitos y actualizar automáticamente el saldo disponible.
+
+### Pago de servicios
+
+Incluye una sección de pago de servicios con diferentes opciones disponibles.
+
+### Historial de movimientos
+
+Registra depósitos y transferencias realizadas mostrando las últimas transacciones efectuadas.
+
+### Actualización automática de saldo
+
+El saldo se actualiza dinámicamente después de cada operación realizada.
+
+### Persistencia de datos
+
+Utiliza LocalStorage para almacenar información de contactos, saldo y movimientos.
+
+## Estructura del proyecto
+
+* login.html
+* Menu.html
+* Contacto.html
+* sendmoney.html
+* Deposito.html
+* servicios.html
+* Ultimastransaciones.html
+
+## Cómo ejecutar el proyecto
+
+1. Descargar o clonar el repositorio.
+2. Abrir el proyecto en Visual Studio Code.
+3. Ejecutar el archivo `login.html` en el navegador.
+4. Ingresar las credenciales de prueba.
+5. Utilizar las distintas funcionalidades disponibles.
+
+## Autor
+
+**Fernanda Saavedra **
+
+Proyecto desarrollado como práctica de Desarrollo Front-End utilizando HTML, CSS, Bootstrap, JavaScript y jQuery.
+
+## Objetivo del proyecto
+
+Desarrollar una aplicación web que simule el funcionamiento básico de una billetera digital, aplicando conceptos de desarrollo web, manipulación del DOM, eventos, almacenamiento local y navegación entre páginas.
