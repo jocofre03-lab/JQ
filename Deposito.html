@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Transferir entre mis cuentas</title>
+    <title>Depósito a mi Cuenta</title>
 
 <!--AQUI VA MI BOOPSTRAP-->
     <link rel="stylesheet" href="/Css/bootstrap.css">
@@ -19,8 +19,8 @@
 
 
         <div class="text-center mt-4">
-            <h2 class="titulo-transferencia">Transferir entre mis cuentas</h2>
-            <h3 class="texto-saldo">Saldo disponible</h3>
+            <h2 class="titulo-Depósito">Depósito a mi Cuenta</h2>
+            <h3 class="texto-saldo">Realizar depósito</h3>
             <h4 id="saldoDisponible">$1.250.000</h4>
         </div>
     </header>
@@ -30,11 +30,11 @@
         <div class="card shadow-sm" style="width: 500px;">
             <div class="card-body">
 
-                <h3 class="text-center mb-4">Transferencia interna</h3>
+                <h3 class="text-center mb-4">Realizar depósito</h3>
 
-                <form id="formTransferencia">
+                <form id="formDeposito">
                     <div class="mb-3">
-                        <label class="form-label">Cuenta origen</label>
+                        <label class="form-label">Banco de Origen</label>
                         <select class="form-control" id="cuentaOrigen">
                             <option value="100000">Pay-pal</option>
                             <option value="1250000">Cuenta Corriente</option>
@@ -42,31 +42,20 @@
                         </select>
                     </div>
 
-                    <div class="mb-3">
-                        <label class="form-label">Cuenta destino</label>
-                        <select class="form-control" id="cuentaDestino">
-                            <option>Pay-pal</option>
-                            <option>Cuenta Corriente</option>
-                            <option>Cuenta Ahorro</option>
-                        </select>
-                    </div>
 
                     <div class="mb-3">
-                        <label class="form-label">Monto a transferir</label>
+                        <label class="form-label">Monto a Depositar</label>
                         <input type="number" class="form-control" id="monto" placeholder="Ingrese monto">
                     </div>
 
                     <div class="mb-3">
                         <label class="form-label">Descripción</label>
-                        <input type="text" class="form-control" id="descripcion" placeholder="Transferencia interna">
+                        <input type="text" class="form-control" id="descripcion" placeholder="Depósito desde otro Banco">
                     </div>
-                    <!-- <button id="btnVolverMenu" class="boton-walletDEPOSITO1">
+
+                    <button type="button" id="btnDepositar" class="boton-walletDEPOSITO1">
                         <i class="bi bi-arrow-left-right"></i>
-                        Transferir
-                    </button>-->
-                    <button type="button" id="btnTransferir" class="boton-walletDEPOSITO1">
-                        <i class="bi bi-arrow-left-right"></i>
-                        Transferir
+                        Depositar
                     </button>
                 </form>
 
@@ -81,10 +70,8 @@
 
 
     <script src="./Assets/Js/jquery/Jquery.js"></script>
-    <script src="./Assets/Js/transferencia.js"></script>
-    <script src="./Assets/Js/script.js"></script>
     <script src="./Assets/Js/deposito.js"></script>
-    <script src="./Assets/Js/sendmoney.js"></script>
+
     
 
 </body>
