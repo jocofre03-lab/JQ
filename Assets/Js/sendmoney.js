@@ -24,32 +24,15 @@ $(document).ready(function () {
 
     contactos.forEach(function (contacto, index) {
 
-        $("#nombre").append(
-            `<option value="${index}">
-                ${contacto.nombre} - ${contacto.banco}
-            </option>`
-        );
+      let opcion = $("<option>/option>");
+      opcion.val(index);
+        opcion.text(contacto.nombre + " - " + contacto.banco);
+        $("#nombre").append(opcion);
 
     });
 
 });
 
-$("#nombre").change(function () {
-
-    let contactos =
-        JSON.parse(localStorage.getItem("contactos")) || [];
-
-    let indice = $(this).val();
-
-    if (indice !== "") {
-
-        $("#cuenta").val(
-            contactos[indice].cuenta
-        );
-
-    }
-
-});
 /*AQUI VA LA ACCION DE ACTULIZAR MI SALDO AL TRANSFERIR EN SENDMONEY Y EN ULTIMASTRANSACIONES*/
 $(document).ready(function () {
 
