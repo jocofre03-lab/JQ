@@ -31,7 +31,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 
     $("#btnTransferir").click(function(){
-        window.location.href = "Transferir.html";
+        window.location.href = "sendmoney.html";
     });
 
 });
@@ -61,38 +61,6 @@ $(document).ready(function(){
     });
 
 });
-/*ESTE ES MI BOTON VOLVER DE PAGINA DE AGREGAR CONTACTOS*/
-
-$(document).ready(function(){
-
-    $("#contenedorVolver").html(`
-        <button id="btnVolver">
-            <i class="bi bi-arrow-left-circle-fill"></i> Volver
-        </button>
-    `);
-
-    $("#btnVolver").css({
-        "background-color": "#7294c7bb",
-        "color": "white",
-        "border": "none",
-        "border-radius": "25px",
-        "padding": "10px 20px",
-        "font-size": "18px",
-        "font-weight": "bold",
-        "cursor": "pointer",
-        "margin": "15px"
-    });
-
-    $("#contenedorVolver").css({
-        "text-align": "center"
-    });
-
-    $("#btnVolver").click(function(){
-        window.location.href = "sendmoney.html"; // Cambia por tu página
-    });
-
-});*/
-/*ESTE ES MI FIN CSS PARA TRANSFERIR BOTON AGREGAR CONTACTO NUEVO*/
 
 
 /*ESTE ES MI BOTON*/
