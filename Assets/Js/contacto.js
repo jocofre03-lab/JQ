@@ -12,7 +12,10 @@ $(document).ready(function () {
             alert("Completa todos los campos");
             return;
         }
-
+        if (isNaN(cuenta)) {
+            alert("El número de cuenta debe ser un valor numérico");
+            return;
+        }
         let contactos =
             JSON.parse(localStorage.getItem("contactos")) || [];
 
